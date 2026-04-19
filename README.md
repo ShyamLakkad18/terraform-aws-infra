@@ -22,7 +22,6 @@ Production-ready Terraform project to provision core AWS infrastructure using re
 - IAM
 
 📁 Project Structure
-
 terraform-aws-infra/
 │── main.tf
 │── variables.tf
@@ -31,8 +30,7 @@ terraform-aws-infra/
 │── modules/
 │   ├── ec2/
 │   ├── vpc/
-│   ├── s3/
-│   └── iam/
+│   ├── s3/│ 
 │── README.md
 
 ⚙️ Prerequisites
