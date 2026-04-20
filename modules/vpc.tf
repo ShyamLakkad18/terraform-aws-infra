@@ -1,12 +1,12 @@
 provider "aws" {
-  region = var.
+  region = var.region-name 
 }
 
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "5.0.0"
 
-  name = "my-vpc"
+  name = var.vpc
   cidr = "10.0.0.0/16"
 
   azs             = ["ap-south-1a", "ap-south-1b"]
