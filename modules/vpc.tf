@@ -15,7 +15,7 @@ resource "aws_subnet" "my_subnet" {
   cidr_block = "10.0.1.0/24"
 
   tags = {
-    Name = "my-subnet"
+    Name = var.my-subnet
   }
 }
 
@@ -33,7 +33,6 @@ resource "aws_route" "my_route" {
   gateway_id             = aws_internet_gateway.my_igw.id
 }
 
-# Route Table Association
 resource "aws_route_table_association" "my_assoc" {
   subnet_id      = aws_subnet.my_subnet.id
   route_table_id = aws_route_table.my_rt.id
