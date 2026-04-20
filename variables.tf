@@ -33,6 +33,6 @@ variable "bucket-name" {
 variable "region-name" {
   type = string
 }
-variable "my-vpc" {
+variable "vpc" {
   type = string
 }
