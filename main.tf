@@ -11,6 +11,7 @@ module "dev-infra" {
  bucket-name = "terrafomr-automate-infra-bucket"
  region-name = "ap-south-1"
  vpc-name = "my-vpc-1"
+ my-subnet = my-subnet-1
 
 
 }
