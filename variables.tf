@@ -36,3 +36,6 @@ variable "region-name" {
 variable "vpc-name" {
   type = string
 }
+variable "my-subnet" {
+  type = string
+}
