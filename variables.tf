@@ -33,9 +33,3 @@ variable "bucket-name" {
 variable "region-name" {
   type = string
 }
-variable "vpc-name" {
-  type = string
-}
-variable "my-subnet" {
-  type = string
-}
