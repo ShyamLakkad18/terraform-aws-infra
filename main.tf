@@ -10,5 +10,6 @@ module "dev-infra" {
  count-id = 3
  bucket-name = "terrafomr-automate-infra-bucket"
  region-name = "ap-south-1"
+ vpc = "my-vpc" 
  
 }
